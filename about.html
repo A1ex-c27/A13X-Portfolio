@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!-- ===== ABOUT PAGE =====
+     Every paragraph marked EDIT ME is a draft. Rewrite it in your own words.
+     Only change the text. Keep the HTML tags around it. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Andrei Custodio</title>
+  <meta name="description" content="About Andrei Custodio, a first-year BSIT Game Development student.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- HEADER (same on every page) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="Andrei Custodio, home">
+        <span class="brand-mark" aria-hidden="true">AC</span>
+        <span class="brand-name">Andrei Custodio</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li><a class="nav-link" href="skills.html">Skills</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Page title -->
+    <section class="page-header">
+      <div class="container">
+        <h1>About me</h1>
+        <p>A first-year student who is still at the beginning, and happy to be.</p>
+      </div>
+    </section>
+
+    <section class="section section-tight">
+      <div class="container about-grid">
+
+        <!-- LEFT: the story -->
+        <div>
+          <!-- EDIT ME: introduction -->
+          <p>
+            I am a first-year BSIT student specializing in Game Development. I am still
+            new to programming and web development, so this website is one of the first
+            larger things I have built from scratch. I would rather be honest about where
+            I am than pretend to be further along.
+          </p>
+
+          <!-- EDIT ME: interests -->
+          <p>
+            Outside of class I spend a lot of time with games, technology, and anything
+            with a good story behind it. Cars and cityscapes catch my eye, and I take
+            photos and draw whenever I get the chance. I enjoy creative projects where
+            everything comes together: a game with a strong atmosphere, a photo with good
+            light, or a layout that just feels right.
+          </p>
+
+          <!-- EDIT ME: personality (this is a draft, so write it in your own words) -->
+          <p>
+            I like learning by trying things out, and I would rather learn in public than
+            wait until I feel ready. I am curious, I like figuring out how things work, and
+            I try to keep improving even when a project does not go the way I planned.
+          </p>
+
+          <!-- EDIT ME: goals -->
+          <h2 class="about-heading">Where I am headed</h2>
+          <p>
+            My goal is to get good enough at game development to build small games I am
+            proud of, and to keep my art and photography going alongside the code. Every
+            project here is a step toward that.
+          </p>
+
+          <!-- Interests as tags. Add or remove items as they change. -->
+          <h2 class="about-heading">Interests</h2>
+          <ul class="tags">
+            <li class="tag">Gaming</li>
+            <li class="tag">Technology</li>
+            <li class="tag">Photography</li>
+            <li class="tag">Digital art</li>
+            <li class="tag">Drawing</li>
+            <li class="tag">Cars</li>
+            <li class="tag">Creative projects</li>
+          </ul>
+        </div>
+
+        <!-- RIGHT: quick facts. Edit the values to match your details. -->
+        <aside class="frame" aria-label="Quick facts">
+          <!-- PORTRAIT: put your photo in assets/images and change the src below to its file name.
+               Until then, a placeholder shows. Keep the same class so the cyberpunk effect applies. -->
+          <figure class="portrait">
+            <img src="assets/images/andrei.jpg" alt="Portrait of Andrei Custodio"
+                 onerror="this.onerror=null;this.src='assets/images/placeholder.svg'">
+          </figure>
+
+          <dl class="facts">
+            <div>
+              <dt>Name</dt>
+              <dd>Andrei Custodio</dd>
+            </div>
+            <div>
+              <dt>Full name</dt>
+              <dd>Jorge Alexandrei FG. Custodio</dd>
+            </div>
+            <div>
+              <dt>Program</dt>
+              <dd>BSIT, Game Development</dd>
+            </div>
+            <div>
+              <dt>Year level</dt>
+              <dd>First year</dd>
+            </div>
+            <div>
+              <dt>Currently</dt>
+              <dd>Learning programming and web development</dd>
+            </div>
+          </dl>
+        </aside>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER (same on every page) -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Andrei Custodio. Built with HTML, CSS, and JavaScript.</p>
+      <p><a href="contact.html">Get in touch</a></p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>

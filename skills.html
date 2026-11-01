@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- ===== SKILLS PAGE =====
+     The skill groups are built from js/skills.js.
+     Update levels there as you learn more. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills | Andrei Custodio</title>
+  <meta name="description" content="Beginner-level programming and technical skills of Andrei Custodio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- HEADER (same on every page) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="Andrei Custodio, home">
+        <span class="brand-mark" aria-hidden="true">AC</span>
+        <span class="brand-name">Andrei Custodio</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li><a class="nav-link" href="skills.html">Skills</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="page-header">
+      <div class="container">
+        <h1>Skills</h1>
+        <!-- EDIT ME: a note about how you rate your skills -->
+        <p>
+          I am a first-year student, so these levels are honest starting points, not final scores.
+          I will update them as I learn.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-tight">
+      <div class="container">
+        <!-- Skill groups are inserted here by js/skills.js -->
+        <div class="skill-groups" id="skills-container"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER (same on every page) -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Andrei Custodio. Built with HTML, CSS, and JavaScript.</p>
+      <p><a href="contact.html">Get in touch</a></p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/main.js"></script>
+  <script src="js/skills.js"></script>
+</body>
+</html>
