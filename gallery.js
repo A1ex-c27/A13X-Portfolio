@@ -6,14 +6,14 @@
    pictures with that id. "All" shows everything.
 
    HOW TO ADD YOUR OWN PICTURE
-   1. Copy your photo into the matching folder inside assets/images/gallery/
+   1. Copy your photo into the matching folder inside gallery/
       (nature, architecture, street, or cars). Use a simple file name, no spaces.
       Tip: resize big photos to about 1600 pixels wide first so the page loads fast.
    2. Copy one line from { to } and paste it at the end of GALLERY_ITEMS.
       Then change these:
         - title:    the caption shown under the picture
         - category: one of the ids below, for example "nature"
-        - image:    the path to your photo, for example "assets/images/gallery/cars/my-car.jpg"
+        - image:    the path to your photo, for example "my-car.jpg"
         - alt:      a short description, read aloud by screen readers
         - credit:   a line shown in the full-screen viewer. Leave "" for your own photos.
         - size:     "tall", "wide", or "" for a normal tile
@@ -36,32 +36,32 @@ const GALLERY_CATEGORIES = [
 
 // Every picture on the page
 const GALLERY_ITEMS = [
-  { title: "Jungle pond", category: "nature", image: "assets/images/gallery/nature/jungle-pond.jpg", alt: "Lush jungle pond with large green leaves", credit: "", size: "" },
-  { title: "Highland ridge", category: "nature", image: "assets/images/gallery/nature/highland-ridge.jpg", alt: "Misty green highland ridge at sunrise", credit: "", size: "" },
-  { title: "Pink blossom river", category: "nature", image: "assets/images/gallery/nature/pink-blossom-river.jpg", alt: "Pink blossom trees beside a calm river", credit: "", size: "" },
-  { title: "Waterfall and bridge", category: "nature", image: "assets/images/gallery/nature/waterfall-bridge.jpg", alt: "Tall waterfall with a white footbridge", credit: "", size: "" },
-  { title: "Redwood canopy", category: "nature", image: "assets/images/gallery/nature/redwood-canopy.jpg", alt: "Looking up through very tall redwood trees", credit: "", size: "" },
-  { title: "Tree study 01", category: "nature", image: "assets/images/gallery/nature/tree-01.jpg", alt: "Tree photo by Bryce Evans", credit: "Photo by Bryce Evans on Unsplash", size: "" },
-  { title: "Tree study 02", category: "nature", image: "assets/images/gallery/nature/tree-02.jpg", alt: "Tree photo by Chris Lejarazu", credit: "Photo by Chris Lejarazu on Unsplash", size: "" },
-  { title: "Tree study 03", category: "nature", image: "assets/images/gallery/nature/tree-03.jpg", alt: "Tree photo by Lukasz Szmigiel", credit: "Photo by Lukasz Szmigiel on Unsplash", size: "" },
-  { title: "Tree study 04", category: "nature", image: "assets/images/gallery/nature/tree-04.jpg", alt: "Tree photo by Matthew Smith", credit: "Photo by Matthew Smith on Unsplash", size: "" },
-  { title: "Tree study 05", category: "nature", image: "assets/images/gallery/nature/tree-05.jpg", alt: "Tree photo by Spencer Watson", credit: "Photo by Spencer Watson on Unsplash", size: "" },
-  { title: "Tree study 06", category: "nature", image: "assets/images/gallery/nature/tree-06.jpg", alt: "Tree photo by Victoria Palacios", credit: "Photo by Victoria Palacios on Unsplash", size: "" },
-  { title: "Angled facade", category: "architecture", image: "assets/images/gallery/architecture/angled-facade.jpg", alt: "Angled metal facade rising into the sky", credit: "", size: "" },
-  { title: "White tower", category: "architecture", image: "assets/images/gallery/architecture/white-tower.jpg", alt: "White building with stacked balconies", credit: "", size: "" },
-  { title: "Glass museum", category: "architecture", image: "assets/images/gallery/architecture/glass-museum.jpg", alt: "Glass and white museum with a sharp roofline", credit: "", size: "" },
-  { title: "Curved blue building", category: "architecture", image: "assets/images/gallery/architecture/curved-blue.jpg", alt: "Curved blue striped building seen from below", credit: "", size: "" },
-  { title: "Twin towers", category: "architecture", image: "assets/images/gallery/architecture/twin-towers.jpg", alt: "Two tall office towers against a blue sky", credit: "", size: "" },
-  { title: "Dubai skyline", category: "architecture", image: "assets/images/gallery/architecture/dubai-skyline.jpg", alt: "Night skyline with a very tall tower", credit: "", size: "" },
-  { title: "Tokyo street at night", category: "street", image: "assets/images/gallery/street/tokyo-street-night.jpg", alt: "Neon-lit city street at night with a taxi", credit: "", size: "" },
-  { title: "Red alley reflections", category: "street", image: "assets/images/gallery/street/red-alley-reflections.jpg", alt: "Narrow alley with red lights reflected in wet ground", credit: "", size: "" },
-  { title: "Shibuya crossing", category: "street", image: "assets/images/gallery/street/shibuya-crossing.jpg", alt: "Aerial view of a busy crossing at night", credit: "", size: "" },
-  { title: "Kabukicho sign", category: "street", image: "assets/images/gallery/street/kabukicho-sign.jpg", alt: "Glowing red arch sign above a street", credit: "", size: "" },
-  { title: "Silver Porsche", category: "cars", image: "assets/images/gallery/cars/silver-porsche.jpg", alt: "Silver Porsche 911 parked outside a glass building", credit: "", size: "" },
-  { title: "Black sports car", category: "cars", image: "assets/images/gallery/cars/black-sports-car.jpg", alt: "Dark sports car in a shadowy, wet space", credit: "", size: "" },
-  { title: "Pink headlights", category: "cars", image: "assets/images/gallery/cars/pink-headlights.jpg", alt: "Car with glowing pink headlights at dusk", credit: "", size: "" },
-  { title: "Motul race car", category: "cars", image: "assets/images/gallery/cars/motul-race-car.jpg", alt: "Close-up of a blue race car with red accents", credit: "", size: "" },
-  { title: "Purple Lamborghini", category: "cars", image: "assets/images/gallery/cars/purple-lamborghini.jpg", alt: "Low sports car lit in purple light", credit: "", size: "" },
+  { title: "Jungle pond", category: "nature", image: "jungle-pond.jpg", alt: "Lush jungle pond with large green leaves", credit: "", size: "" },
+  { title: "Highland ridge", category: "nature", image: "highland-ridge.jpg", alt: "Misty green highland ridge at sunrise", credit: "", size: "" },
+  { title: "Pink blossom river", category: "nature", image: "pink-blossom-river.jpg", alt: "Pink blossom trees beside a calm river", credit: "", size: "" },
+  { title: "Waterfall and bridge", category: "nature", image: "waterfall-bridge.jpg", alt: "Tall waterfall with a white footbridge", credit: "", size: "" },
+  { title: "Redwood canopy", category: "nature", image: "redwood-canopy.jpg", alt: "Looking up through very tall redwood trees", credit: "", size: "" },
+  { title: "Tree study 01", category: "nature", image: "tree-01.jpg", alt: "Tree photo by Bryce Evans", credit: "Photo by Bryce Evans on Unsplash", size: "" },
+  { title: "Tree study 02", category: "nature", image: "tree-02.jpg", alt: "Tree photo by Chris Lejarazu", credit: "Photo by Chris Lejarazu on Unsplash", size: "" },
+  { title: "Tree study 03", category: "nature", image: "tree-03.jpg", alt: "Tree photo by Lukasz Szmigiel", credit: "Photo by Lukasz Szmigiel on Unsplash", size: "" },
+  { title: "Tree study 04", category: "nature", image: "tree-04.jpg", alt: "Tree photo by Matthew Smith", credit: "Photo by Matthew Smith on Unsplash", size: "" },
+  { title: "Tree study 05", category: "nature", image: "tree-05.jpg", alt: "Tree photo by Spencer Watson", credit: "Photo by Spencer Watson on Unsplash", size: "" },
+  { title: "Tree study 06", category: "nature", image: "tree-06.jpg", alt: "Tree photo by Victoria Palacios", credit: "Photo by Victoria Palacios on Unsplash", size: "" },
+  { title: "Angled facade", category: "architecture", image: "angled-facade.jpg", alt: "Angled metal facade rising into the sky", credit: "", size: "" },
+  { title: "White tower", category: "architecture", image: "white-tower.jpg", alt: "White building with stacked balconies", credit: "", size: "" },
+  { title: "Glass museum", category: "architecture", image: "glass-museum.jpg", alt: "Glass and white museum with a sharp roofline", credit: "", size: "" },
+  { title: "Curved blue building", category: "architecture", image: "curved-blue.jpg", alt: "Curved blue striped building seen from below", credit: "", size: "" },
+  { title: "Twin towers", category: "architecture", image: "twin-towers.jpg", alt: "Two tall office towers against a blue sky", credit: "", size: "" },
+  { title: "Dubai skyline", category: "architecture", image: "dubai-skyline.jpg", alt: "Night skyline with a very tall tower", credit: "", size: "" },
+  { title: "Tokyo street at night", category: "street", image: "tokyo-street-night.jpg", alt: "Neon-lit city street at night with a taxi", credit: "", size: "" },
+  { title: "Red alley reflections", category: "street", image: "red-alley-reflections.jpg", alt: "Narrow alley with red lights reflected in wet ground", credit: "", size: "" },
+  { title: "Shibuya crossing", category: "street", image: "shibuya-crossing.jpg", alt: "Aerial view of a busy crossing at night", credit: "", size: "" },
+  { title: "Kabukicho sign", category: "street", image: "kabukicho-sign.jpg", alt: "Glowing red arch sign above a street", credit: "", size: "" },
+  { title: "Silver Porsche", category: "cars", image: "silver-porsche.jpg", alt: "Silver Porsche 911 parked outside a glass building", credit: "", size: "" },
+  { title: "Black sports car", category: "cars", image: "black-sports-car.jpg", alt: "Dark sports car in a shadowy, wet space", credit: "", size: "" },
+  { title: "Pink headlights", category: "cars", image: "pink-headlights.jpg", alt: "Car with glowing pink headlights at dusk", credit: "", size: "" },
+  { title: "Motul race car", category: "cars", image: "motul-race-car.jpg", alt: "Close-up of a blue race car with red accents", credit: "", size: "" },
+  { title: "Purple Lamborghini", category: "cars", image: "purple-lamborghini.jpg", alt: "Low sports car lit in purple light", credit: "", size: "" },
 ];
 
 
