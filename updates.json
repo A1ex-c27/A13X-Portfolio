@@ -1,0 +1,29 @@
+{
+  "revision": "02",
+  "notices": [
+    {
+      "from": "1970-01-01",
+      "text": "WONDERLAND.EXE — INTERNAL NOTICE\n--------------------------------\nWelcome, valued visitor.\n\nWe are pleased to confirm that the program is operating within acceptable parameters.\n\nPlease enjoy your stay."
+    },
+    {
+      "from": "2026-12-01",
+      "text": "WONDERLAND.EXE — INTERNAL NOTICE\n--------------------------------\nFun Day is now mandatory.\nFun Day has always been mandatory.\n\nIf you cannot find the exit, that is a skill issue. We mean that kindly.\n\nPlease enjoy your stay."
+    },
+    {
+      "from": "2026-12-08",
+      "text": "WONDERLAND.EXE — INTERNAL NOTICE\n--------------------------------\nHeadcount has been adjusted.\nPlease do not recount.\n\nAn announcement will be made by the host.\nThe host is delighted.\n\nPlease enjoy your stay."
+    }
+  ],
+  "documents": [
+    { "name": "WELCOME.TXT",   "date": "1984-01-01", "path": "documents/welcome.txt",   "releaseAt": "1970-01-01" },
+    { "name": "MEMO_02.TXT",   "date": "1984-03-12", "path": "documents/memo_02.txt",   "releaseAt": "2026-12-01" },
+    { "name": "HEADCOUNT.TXT", "date": "1984-06-30", "path": "documents/headcount.txt", "releaseAt": "2026-12-08" }
+  ],
+  "hidden": { "name": ".WELCOME.TXT", "path": "documents/welcome.txt" },
+  "vault": {
+    "name": "MEMO_03.TXT",
+    "date": "UNKNOWN",
+    "path": "documents/memo_03.txt",
+    "sha256": "0e73e994ccda52b65938bc6e1ec305f61ab8e2c6188458420f2b46932d118f21"
+  }
+}
